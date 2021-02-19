@@ -3,5 +3,6 @@ Installs matrix with Letsencrypt ssl certificates. This Version is for user behi
 This script installs Matrix Synapse and Element Web with valid ssl certs. 
 To run this script download it to your server. 
 bash matrix_letsencrypt.sh on your commandline. Make sure your server reaches the internet and the Ports are open ohterwise the certifcates are not posible to install.
+If you use a reverse proxy in front of your server just use the file for self signed certs for installation. forward your reverse Proxy to your server with port 443.
 
 
