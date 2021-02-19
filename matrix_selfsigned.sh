@@ -5,10 +5,10 @@
 #Check https://github.com/vector-im/element-web/releases for newest Element version.
 #Federation check after install https://federationtester.matrix.org for testing.
 
-MRX_DOM="matrix.bin-bash.ch"
-ELE_DOM="element.bin-bash.ch"
+MRX_DOM="matrix.yourdomain.com"
+ELE_DOM="element.yourdomain.com"
 ELE_VER="v1.7.21"
-MRX_NME="bin-bash.ch"
+MRX_NME="yourdomain.com"
 MRX_PKE=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
 
 ELE_DBNAME="synapse_db"
