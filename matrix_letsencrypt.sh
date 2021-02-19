@@ -9,12 +9,13 @@ MRX_DOM="matrix.yourdomain.com" #Matrix domain
 ELE_DOM="element.yourdomain.com" #webinterface
 ELE_VER="v1.7.21" #check first on github
 MRX_NME="yourdomain.com" #server_name
+
+#Dont change anything from here
+
 MRX_PKE=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
 
 ELE_DBNAME="synapse_db"
 ELE_DBUSER="synapse_user"
-
-#Dont change anything from here
 
 ELE_DBPASS=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
 
