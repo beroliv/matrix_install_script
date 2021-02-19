@@ -5,10 +5,10 @@
 #Check https://github.com/vector-im/element-web/releases for newest version.
 #Federation check after install https://federationtester.matrix.org
 
-MRX_DOM="matrix.bin-bash.ch" #Matrix domain
-ELE_DOM="element.bin-bash.ch" #webinterface
+MRX_DOM="matrix.yourdomain.com" #Matrix domain
+ELE_DOM="element.yourdomain.com" #webinterface
 ELE_VER="v1.7.21" #check first on github
-MRX_NME="bin-bash.ch" #server_name
+MRX_NME="yourdomain.com" #server_name
 MRX_PKE=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
 
 ELE_DBNAME="synapse_db"
